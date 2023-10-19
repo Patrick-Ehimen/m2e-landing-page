@@ -9,8 +9,10 @@ import RarityTable from "./RarityTable";
 import Team from "./Team";
 import Faqs from "./Faqs";
 import Footer from "./Footer";
+import Navbarr from "./Navbar";
 
 export {
+  Navbarr,
   Navbar,
   Hero,
   HeroImg,
