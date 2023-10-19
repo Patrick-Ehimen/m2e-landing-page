@@ -14,6 +14,8 @@ import road from "./road.svg";
 import judge from "./judge.svg";
 import people from "./people.svg";
 import fire from "./fire.svg";
+import close from "./close.svg";
+import menu from "./menu.svg";
 
 export {
   Logo,
@@ -32,4 +34,6 @@ export {
   judge,
   stats4,
   people,
+  close,
+  menu,
 };
