@@ -29,10 +29,6 @@ export const navLinks = [
     id: "career",
     title: "Career",
   },
-  {
-    id: "launch app",
-    title: "Launch App",
-  },
 ];
 
 export const socialMedia = [
