@@ -27,48 +27,6 @@ const App = () => {
       <Team />
       <Faqs />
       <Footer />
-      <Hero />
-      <HeroImg />
-      <Stats />
-      <Earn />
-      <CardDeal />
-      <RarityLevel />
-      <RarityTable />
-      <HeroImg />
-      <Team />
-      <Faqs />
-      <Footer /> <Hero />
-      <HeroImg />
-      <Stats />
-      <Earn />
-      <CardDeal />
-      <RarityLevel />
-      <RarityTable />
-      <HeroImg />
-      <Team />
-      <Faqs />
-      <Footer /> <Hero />
-      <HeroImg />
-      <Stats />
-      <Earn />
-      <CardDeal />
-      <RarityLevel />
-      <RarityTable />
-      <HeroImg />
-      <Team />
-      <Faqs />
-      <Footer />
-      <Hero />
-      <HeroImg />
-      <Stats />
-      <Earn />
-      <CardDeal />
-      <RarityLevel />
-      <RarityTable />
-      <HeroImg />
-      <Team />
-      <Faqs />
-      <Footer />
     </div>
   );
 };
