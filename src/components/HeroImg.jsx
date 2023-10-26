@@ -50,12 +50,12 @@ const HeroImg = () => {
           {clients.slice(0, 6).map((client) => (
             <div
               key={client.id}
-              className="flex justify-center items-center w-40 h-40 bg-white bg-opacity-10 rounded-[34px] backdrop-blur-2xl m-3 sm:m-5"
+              className="flex justify-center items-center w-20 h-20 bg-white bg-opacity-10 rounded-[34px] backdrop-blur-2xl m-3 sm:m-5 "
             >
               <img
                 src={client.logo}
                 alt="client_logo"
-                className="object-contain"
+                className="object-contain w-1/2"
               />
             </div>
           ))}
