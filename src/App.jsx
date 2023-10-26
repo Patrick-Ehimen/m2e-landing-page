@@ -25,26 +25,23 @@ const App = () => {
       <CardDeal />
       <RarityLevel />
       <RarityTable />
-      <HeroImg />
       <Team />
       <Faqs />
       <Footer />
-      <HeroImg />
+
       <Stats />
       <Earn />
       <CardDeal />
       <RarityLevel />
       <RarityTable />
-      <HeroImg />
       <Team />
       <Faqs />
-      <Footer /> <HeroImg />
+      <Footer />
       <Stats />
       <Earn />
       <CardDeal />
       <RarityLevel />
       <RarityTable />
-      <HeroImg />
       <Team />
       <Faqs />
       <Footer />
