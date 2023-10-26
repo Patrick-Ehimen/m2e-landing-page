@@ -14,6 +14,17 @@ import {
   judge,
   stats4,
   people,
+  bnb,
+  solana,
+  ftx,
+  Avalanche,
+  React,
+  Group80,
+  okx,
+  Group78,
+  chainlink,
+  harmony_one_logo,
+  Vector,
 } from "../assets";
 
 export const navLinks = [
@@ -97,5 +108,52 @@ export const stats = [
     name: "Users",
     img: people,
     imgContent: stats4,
+  },
+];
+
+export const clients = [
+  {
+    id: "client-1",
+    logo: bnb,
+  },
+  {
+    id: "client-2",
+    logo: solana,
+  },
+  {
+    id: "client-3",
+    logo: ftx,
+  },
+  {
+    id: "client-4",
+    logo: Avalanche,
+  },
+  {
+    id: "client-5",
+    logo: React,
+  },
+  {
+    id: "client-6",
+    logo: Group80,
+  },
+  {
+    id: "client-7",
+    logo: okx,
+  },
+  {
+    id: "client-8",
+    logo: Group78,
+  },
+  {
+    id: "client-9",
+    logo: Vector,
+  },
+  {
+    id: "client-10",
+    logo: chainlink,
+  },
+  {
+    id: "client-11",
+    logo: harmony_one_logo,
   },
 ];
