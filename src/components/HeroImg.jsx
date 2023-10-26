@@ -1,5 +1,7 @@
+import { clients } from "../constants";
+
 const HeroImg = () => {
-  return <div>HeroImg</div>;
+  return <section className=""></section>;
 };
 
 export default HeroImg;
