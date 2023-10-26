@@ -17,6 +17,10 @@ import fire from "./fire.svg";
 import close from "./close.svg";
 import menu from "./menu.svg";
 import Swift from "./Swift.svg";
+import apple2 from "./apple2.svg";
+import Apple3 from "./Apple3.svg";
+import google from "./google.svg";
+import google2 from "./google2.svg";
 
 export {
   Logo,
@@ -38,4 +42,8 @@ export {
   close,
   menu,
   Swift,
+  apple2,
+  Apple3,
+  google,
+  google2,
 };
