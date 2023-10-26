@@ -21,6 +21,17 @@ import apple2 from "./apple2.svg";
 import Apple3 from "./Apple3.svg";
 import google from "./google.svg";
 import google2 from "./google2.svg";
+import bnb from "./bnb.svg";
+import solana from "./solana.svg";
+import ftx from "./ftx.svg";
+import Avalanche from "./Avalanche.svg";
+import React from "./React.svg";
+import Group80 from "./Group80.svg";
+import okx from "./okx.svg";
+import Group78 from "./Group78.svg";
+import chainlink from "./chainlink.svg";
+import harmony_one_logo from "./harmony_one_logo.svg";
+import Vector from "./Vector.svg";
 
 export {
   Logo,
@@ -46,4 +57,15 @@ export {
   Apple3,
   google,
   google2,
+  bnb,
+  solana,
+  ftx,
+  Avalanche,
+  React,
+  Group80,
+  okx,
+  Group78,
+  chainlink,
+  harmony_one_logo,
+  Vector,
 };
