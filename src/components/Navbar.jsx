@@ -10,12 +10,16 @@ const Navbarr = () => {
   const [toggle, settoggle] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10  bg-[#ffffff0a] bg-[#000000] border border-black rounded-full shadow-lg px-2 py-3 mx-20 mt-10 ">
+    <nav className="fixed top-0 left-0 right-0 z-10  sm:bg-[#ffffff0a] sm:bg-[#000000] border border-black sm:rounded-full shadow-lg sm:px-2 py-3 sm:mx-20 sm:mt-10 ">
       {/* Navigation bar content */}
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-0 p-2">
         {/* Logo */}
-        <a href="#" className="flex items-center">
-          <img src={Logo} alt="logo" className="w-[36px] h-[30px] ml-6 my-2" />
+        <a href="#" className="flex items-center ">
+          <img
+            src={Logo}
+            alt="logo"
+            className="w-[36px] h-[30px] ml-2 sm:ml-6 my-2"
+          />
         </a>
         {/* Launch App button */}
         <div className="flex md:order-2">
@@ -46,7 +50,7 @@ const Navbarr = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[28px] h-[28px] object-contain"
+            className="w-[28px] h-[28px] object-contain mr-2"
             onClick={() => settoggle((prev) => !prev)}
           />
           {/* Sidebar menu */}
