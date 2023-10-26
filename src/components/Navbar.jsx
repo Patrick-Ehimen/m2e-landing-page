@@ -25,7 +25,7 @@ const Navbarr = () => {
         <div className="flex md:order-2">
           <button
             type="button"
-            className="text-primary bg-[#D9D9D9C9] hover:bg-[#d9d9d9df]   font-bold font-inter rounded-full text-sm px-4 py-2 text-center mr-3 sm:flex hidden"
+            className="text-primary bg-[#D9D9D9C9] hover:bg-[#d9d9d9df]   font-bold font-inter rounded-full text-sm px-4 py-2 text-center mr-3 sm:flex hidden hover:scale-105 hover:shadow-lg transition-all duration-300"
           >
             Launch App
           </button>
@@ -37,7 +37,7 @@ const Navbarr = () => {
               <li key={link.id}>
                 <a
                   href={`#${link.id}`}
-                  className="block py-2 pl-3 pr-4 text-white hover:bg-[#d9d9d9df] md:hover:bg-transparent  md:p-0   "
+                  className="block py-2 pl-3 pr-4 text-white hover:scale-105 hover:shadow-lg transition-all duration-300 md:p-0"
                 >
                   {link.title}
                 </a>
