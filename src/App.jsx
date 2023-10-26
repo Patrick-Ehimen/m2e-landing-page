@@ -16,10 +16,29 @@ const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
       <Navbar />
-      <div className="">
+      <div>
         <Hero />
       </div>
       <HeroImg />
+      <Stats />
+      <Earn />
+      <CardDeal />
+      <RarityLevel />
+      <RarityTable />
+      <HeroImg />
+      <Team />
+      <Faqs />
+      <Footer />
+      <HeroImg />
+      <Stats />
+      <Earn />
+      <CardDeal />
+      <RarityLevel />
+      <RarityTable />
+      <HeroImg />
+      <Team />
+      <Faqs />
+      <Footer /> <HeroImg />
       <Stats />
       <Earn />
       <CardDeal />
