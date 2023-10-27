@@ -7,6 +7,7 @@ export default {
         primary: "#000000",
         lightGray: "#D9D9D9C9",
         secondary: "#ffffff",
+        "transparent-white": "rgba(255, 255, 255, 0.06)",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
@@ -21,6 +22,7 @@ export default {
       xxl: "1536px",
     },
   },
+  variants: {},
   plugins: [],
 };
 // xs: "480px",
