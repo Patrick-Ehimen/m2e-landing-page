@@ -6,7 +6,7 @@ const Stats = () => {
       {stats.map((stat) => (
         <div
           key={stat.id}
-          className="w-48 h-48 relative mb-10 px-5 bg-transparent-white rounded-2xl justify-center cursor-pointer items-center"
+          className="w-48 sm:w-5/12  h-48 relative mb-10 px-5 bg-transparent-white rounded-2xl justify-center cursor-pointer items-center"
         >
           <div className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 rounded-full">
             <img src={stat.img} alt={stat.name} className="w-12 h-12" />
