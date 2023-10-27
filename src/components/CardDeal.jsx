@@ -8,7 +8,7 @@ const CardDeal = () => (
         alt="card"
         className="w-8/12 h-[1/2] hover:scale-105 z-[10] "
       />
-      <img
+      {/* <img
         src={Rectangle18}
         alt="rectangle"
         className="w-2/12 left-10 bottom-10 z-0 absolute "
@@ -17,7 +17,7 @@ const CardDeal = () => (
         src={Ellipse}
         alt="ellipse"
         className="w-2/12 right-10 bottom-20 z-0 absolute"
-      />
+      /> */}
     </div>
     <div className="flex-1 flex-col flex justify-center items-start">
       <h2 className="font-Inter font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">
