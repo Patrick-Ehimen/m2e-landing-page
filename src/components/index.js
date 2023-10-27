@@ -10,6 +10,8 @@ import Team from "./Team";
 import Faqs from "./Faqs";
 import Footer from "./Footer";
 import Navbarr from "./Navbar";
+import HeroImg2 from "./HeroImg2";
+import LaunchApp from "./LaunchApp";
 
 export {
   Navbarr,
@@ -24,4 +26,6 @@ export {
   Team,
   Faqs,
   Footer,
+  HeroImg2,
+  LaunchApp,
 };
