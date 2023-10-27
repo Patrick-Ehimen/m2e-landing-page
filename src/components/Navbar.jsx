@@ -12,7 +12,7 @@ const Navbarr = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 50;
+      const isScrolled = window.scrollY > 5;
       if (isScrolled !== scrolled) {
         setScrolled(!scrolled);
       }
