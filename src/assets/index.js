@@ -37,6 +37,8 @@ import Component5 from "./Component5.svg";
 import Ellipse from "./Ellipse.svg";
 import Rectangle18 from "./Rectangle18.svg";
 import Rarity from "./Rarity.svg";
+import Steps from "./Steps.svg";
+import rarityTable from "./RarityTable.svg";
 
 export {
   Logo,
@@ -78,4 +80,6 @@ export {
   Ellipse,
   Rectangle18,
   Rarity,
+  Steps,
+  rarityTable,
 };
