@@ -39,6 +39,7 @@ import Rectangle18 from "./Rectangle18.svg";
 import Rarity from "./Rarity.svg";
 import Steps from "./Steps.svg";
 import rarityTable from "./RarityTable.svg";
+import caretDown from "./caret-down.svg";
 
 export {
   Logo,
@@ -82,4 +83,5 @@ export {
   Rarity,
   Steps,
   rarityTable,
+  caretDown,
 };
