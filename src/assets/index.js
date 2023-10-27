@@ -36,6 +36,7 @@ import Group124 from "./Group124.svg";
 import Component5 from "./Component5.svg";
 import Ellipse from "./Ellipse.svg";
 import Rectangle18 from "./Rectangle18.svg";
+import Rarity from "./Rarity.svg";
 
 export {
   Logo,
@@ -76,4 +77,5 @@ export {
   Component5,
   Ellipse,
   Rectangle18,
+  Rarity,
 };
