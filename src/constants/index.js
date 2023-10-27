@@ -3,9 +3,6 @@ import {
   facebook,
   instagram,
   twitter,
-  feet,
-  currency,
-  timer,
   stats1,
   fire,
   stats2,
@@ -48,23 +45,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "#",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "#",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "#",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "#",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "#",
       },
     ],
   },
@@ -73,36 +70,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "#",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "#",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "#",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "#",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "#",
       },
     ],
   },
@@ -128,21 +112,6 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const earningModel = [
-  {
-    id: "c-1",
-    logo: feet,
-  },
-  {
-    id: "cl-2",
-    logo: currency,
-  },
-  {
-    id: "cl-3",
-    logo: timer,
   },
 ];
 
@@ -221,5 +190,32 @@ export const clients = [
   {
     id: "client-11",
     logo: harmony_one_logo,
+  },
+];
+
+export const faq = [
+  {
+    id: "faq-1",
+    question: "How can i earn money by walking?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
+  },
+  {
+    id: "faq-2",
+    question: "How can I sell my shoes?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
+  },
+  {
+    id: "faq-3",
+    question: "What can I do if my shoes get worn out?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
+  },
+  {
+    id: "faq-4",
+    question: "How are the rarity levels of shoes determined?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!",
   },
 ];
