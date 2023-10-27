@@ -2,6 +2,7 @@ import {
   Navbar,
   Hero,
   HeroImg,
+  HeroImg2,
   Stats,
   Earn,
   CardDeal,
@@ -10,6 +11,7 @@ import {
   Team,
   Faqs,
   Footer,
+  LaunchApp,
 } from "./components";
 
 const App = () => {
@@ -22,24 +24,23 @@ const App = () => {
       <HeroImg />
       <Stats />
       <Earn />
+      <LaunchApp />
       <CardDeal />
       <RarityLevel />
       <RarityTable />
-      <Team />
-      <Faqs />
-      <Footer />
-
-      <Stats />
-      <Earn />
-      <CardDeal />
-      <RarityLevel />
-      <RarityTable />
+      <HeroImg2 />
       <Team />
       <Faqs />
       <Footer />
       <Stats />
       <Earn />
-      <CardDeal />
+      <RarityLevel />
+      <RarityTable />
+      <Team />
+      <Faqs />
+      <Footer />
+      <Stats />
+      <Earn />
       <RarityLevel />
       <RarityTable />
       <Team />
