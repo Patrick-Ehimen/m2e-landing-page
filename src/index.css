@@ -5,21 +5,27 @@
 @tailwind utilities;
 
 .hero__gradient {
-  /*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=b8ba31&c2=b9713e00&gt=r&gd=dcc
-*/
   background: #b8ba31;
   background: radial-gradient(at center, #b8ba31, #b9713e00);
   filter: blur(150px);
 }
 
 .navbar__gradient {
-  /*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=7631ba&c2=894fc500&gt=r&gd=dcc
-*/
   background: #7631ba;
   background: radial-gradient(at center, #7631ba, #894fc500);
   filter: blur(750px);
+}
+
+.hero2__gradient {
+  background: #ae3fbb;
+  /* background: radial-gradient(at center, #ae3fbb, #512d14); */
+  background: linear-gradient(0deg, #ae3fbb, #512d14);
+
+  filter: blur(750px);
+}
+
+.card_gradient {
+  background: #c3d0f9;
+  background: radial-gradient(at center, #c3d0f9, #5136b9);
+  filter: blur(500px);
 }
