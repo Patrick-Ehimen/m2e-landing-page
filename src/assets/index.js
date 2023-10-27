@@ -32,6 +32,10 @@ import Group78 from "./Group78.svg";
 import chainlink from "./chainlink.svg";
 import harmony_one_logo from "./harmony_one_logo.svg";
 import Vector from "./Vector.svg";
+import Group124 from "./Group124.svg";
+import Component5 from "./Component5.svg";
+import Ellipse from "./Ellipse.svg";
+import Rectangle18 from "./Rectangle18.svg";
 
 export {
   Logo,
@@ -68,4 +72,8 @@ export {
   chainlink,
   harmony_one_logo,
   Vector,
+  Group124,
+  Component5,
+  Ellipse,
+  Rectangle18,
 };
