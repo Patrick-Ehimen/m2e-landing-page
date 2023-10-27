@@ -40,3 +40,9 @@
   background: linear-gradient(700deg, #671835, #512d14);
   filter: blur(500px);
 }
+
+.footer_gradient {
+  background: #c3d0f9;
+  background: radial-gradient(at center, #c3d0f9, #5136b9);
+  filter: blur(200px);
+}
