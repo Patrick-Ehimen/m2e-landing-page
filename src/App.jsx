@@ -32,20 +32,6 @@ const App = () => {
       <Team />
       <Faqs />
       <Footer />
-      <Stats />
-      <Earn />
-      <RarityLevel />
-      <RarityTable />
-      <Team />
-      <Faqs />
-      <Footer />
-      <Stats />
-      <Earn />
-      <RarityLevel />
-      <RarityTable />
-      <Team />
-      <Faqs />
-      <Footer />
     </div>
   );
 };
