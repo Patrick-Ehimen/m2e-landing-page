@@ -18,11 +18,11 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="flex flex-row flew-warp sm:mt-10 mt-6 ">
+      <div className="flex sm:flex-row flex-col flew-warp sm:mt-10 mt-6 ">
         <img
           src={Apple3}
           alt="apple"
-          className="w-[128px] h-[42px] object-contain mr-5 hover:cursor-pointer"
+          className="w-[128px] h-[42px] object-contain mr-5 hover:cursor-pointer mb-2"
         />
         <img
           src={google2}
