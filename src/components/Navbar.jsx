@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Logo, menu, close } from "../assets";
 import { navLinks } from "../constants";
@@ -8,9 +8,30 @@ import { navLinks } from "../constants";
 const Navbarr = () => {
   // Using React hook for handling toggle state
   const [toggle, settoggle] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 50;
+      if (isScrolled !== scrolled) {
+        setScrolled(!scrolled);
+      }
+    };
+
+    document.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      // cleanup
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10  sm:bg-[#ffffff0a] sm:bg-[#000000] border border-black sm:rounded-full shadow-lg sm:px-2 py-3 sm:mx-20 sm:mt-10 ">
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 border border-black sm:rounded-full shadow-lg sm:px-2 py-3 sm:mx-20 sm:mt-10 ${
+        scrolled ? "bg-black" : "sm:bg-[rgba(255, 255, 255, 0.06)]"
+      }`}
+    >
       {/* Navigation bar content */}
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-0 p-2">
         {/* Logo */}
