@@ -9,7 +9,7 @@ const RarityLevel = () => {
       <p className="font-Inter font-normal text-white text-[14px] leading-[30.8px] mx-2 mt-5">
         More infomation about the rarity levels of NFTs
       </p>
-      <img src={Rarity} alt="rarity" className="sm:w-3/12 w-1/2" />
+      <img src={Rarity} alt="rarity" className="sm:w-3/12 w-1/2 z-[10]" />
     </section>
   );
 };
