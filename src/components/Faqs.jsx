@@ -11,7 +11,7 @@ const Faqs = () => {
 
   return (
     <div className="space-y-4 mx-[50px] sm:mx-[200px]">
-      <h2 className="flex flew-row justify-center text-white font-bold text-[36px]">
+      <h2 className="flex flew-row justify-center text-white font-bold text-[36px] mt-7">
         FAQ
       </h2>
       {faq.map((item, index) => (
