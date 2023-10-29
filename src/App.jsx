@@ -29,7 +29,7 @@ const App = () => {
       <RarityLevel />
       <RarityTable />
       <HeroImg2 />
-      <Team />
+
       <Faqs />
       <Footer />
     </div>
