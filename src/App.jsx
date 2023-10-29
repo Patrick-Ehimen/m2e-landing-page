@@ -8,7 +8,6 @@ import {
   CardDeal,
   RarityLevel,
   RarityTable,
-  Team,
   Faqs,
   Footer,
   LaunchApp,
