@@ -16,6 +16,24 @@
   filter: blur(750px);
 }
 
+.text__gradient {
+  background-image: linear-gradient(
+    to right,
+    #5200ff,
+    #d500c1,
+    #ff0085,
+    #ff0657,
+    #ff693b,
+    #ff7839,
+    #ff8639,
+    #ff943b,
+    #ff7f43,
+    #ff6a4e,
+    #ff535b,
+    #ff3c6a
+  );
+}
+
 .hero2__gradient {
   background: #ae3fbb;
   /* background: radial-gradient(at center, #ae3fbb, #512d14); */
