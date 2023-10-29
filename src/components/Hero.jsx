@@ -8,6 +8,7 @@ const Hero = () => {
         alt="Swift blockchain"
         src={Swift}
       />
+
       <div>
         <p className="flex items-center mx-[50px] sm:mx-[120px] mt-8 text-white text-center font-inter text-lg">
           Ready to energize your life and turn it into earnings? With Move to
@@ -17,7 +18,6 @@ const Hero = () => {
           Each step matters.
         </p>
       </div>
-
       <div className="flex sm:flex-row flex-col flew-warp sm:mt-10 mt-6 ">
         <img
           src={Apple3}
